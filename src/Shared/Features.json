@@ -1,0 +1,109 @@
+{
+  "Features": [
+    {
+      "label": "Air Conditioning",
+      "name": "airConditioning",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Sunroof",
+      "name": "sunroof",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Bluetooth",
+      "name": "bluetooth",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Backup Camera",
+      "name": "backupCamera",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Navigation System",
+      "name": "navigationSystem",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Heated Seats",
+      "name": "heatedSeats",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Leather Seats",
+      "name": "leatherSeats",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Remote Start",
+      "name": "remoteStart",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Parking Sensors",
+      "name": "parkingSensors",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Blind Spot Monitor",
+      "name": "blindSpotMonitor",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Cruise Control",
+      "name": "cruiseControl",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Alloy Wheels",
+      "name": "alloyWheels",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Third Row Seating",
+      "name": "thirdRowSeating",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Power Windows",
+      "name": "powerWindows",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Power Door Locks",
+      "name": "powerDoorLocks",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Keyless Entry",
+      "name": "keylessEntry",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Four-Wheel Drive (4WD)",
+      "name": "fourWheelDrive",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Tow Package",
+      "name": "towPackage",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Anti-lock Braking System (ABS)",
+      "name": "abs",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Adaptive Cruise Control",
+      "name": "adaptiveCruiseControl",
+      "fieldType": "checkbox"
+    },
+    {
+      "label": "Lane Departure Warning",
+      "name": "laneDepartureWarning",
+      "fieldType": "checkbox"
+    }
+  ]
+}

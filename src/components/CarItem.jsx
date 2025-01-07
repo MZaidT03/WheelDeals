@@ -39,7 +39,7 @@ function CarItem({ car }) {
         </div>
         <Separator className="hidden md:block md:border my-2" />
         <div className="flex items-center justify-between">
-          <h2 className="font-bold text-xl">$ {car.sellingPrice}</h2>
+          <h2 className="font-bold text-xl">PKR {car.sellingPrice}</h2>
 
           <h2 className="font-black text-sm flex items-center gap-2">
             <MdOutlineOpenInNew />

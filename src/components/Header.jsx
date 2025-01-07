@@ -29,7 +29,9 @@ function Header() {
         </div>
       ) : (
         <SignInButton>
-          <button className="text-white  hover:bg-[#006A67]">Sign In</button>
+          <button className="text-white bg-black p-2 rounded-xl hover:bg-[#006A67]">
+            Sign In
+          </button>
         </SignInButton>
       )}
     </div>

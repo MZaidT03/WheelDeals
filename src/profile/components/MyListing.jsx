@@ -60,6 +60,21 @@ function MyListing() {
           return (
             <div key={index}>
               <CarItem car={item} />
+              <div className=" p-2 rounded-lg flex flex-row justify-between ">
+                <Link to={"/add-listing?mode=edit&id=" + item?.id}>
+                  <Button
+                    variant="ghost"
+                    className="w-full hover:bg-slate-200 rounded-xl"
+                  >
+                    Edit
+                  </Button>
+                </Link>
+                <Link>
+                  <Button className=" bg-red-600 text-white rounded-xl">
+                    Delete
+                  </Button>
+                </Link>
+              </div>
             </div>
           );
         })}

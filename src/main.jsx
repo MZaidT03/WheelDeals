@@ -7,16 +7,12 @@ import Home from "./Home";
 import { ClerkProvider, useUser } from "@clerk/clerk-react";
 import Profile from "./profile/index";
 import AddListing from "./add-listing";
-import SearchByCategory from "./search/[category]";
-import SearchByOption from "./search";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/contact", element: <Contact /> },
   { path: "/profile", element: <Profile /> },
   { path: "/add-listing", element: <AddListing /> },
-  { path: "/search", element: <SearchByOption /> },
-  { path: "/search/:category", element: <SearchByCategory /> },
 ]);
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 // const user = useUser();

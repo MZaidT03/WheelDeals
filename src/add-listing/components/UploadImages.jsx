@@ -17,7 +17,7 @@ function UploadImages({ triggerUploadImages, setLoader }) {
   async function UploadImagesToServer() {
     setLoader(true);
 
-    await selectedFileList.forEach(async (file) => {
+    await selectedFileList.forEach((file) => {
       const fileName = Date.now() + ".jpeg";
       const storageRef = ref(storage, "wheelDeals/" + fileName);
       const metaData = {
